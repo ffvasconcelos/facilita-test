@@ -6,12 +6,13 @@ import pg from "pg";
 
 import pathFinder from "./services/pathFinder.js";
 
+// Alterar configurações do banco.
 const client = new pg.Client({
 	host: "localhost",
 	port: 5432,
 	database: "desafio_facilita",
-	user: "postgres",
-	password: "1234",
+	user: "user",
+	password: "password",
 });
 
 await client.connect();
