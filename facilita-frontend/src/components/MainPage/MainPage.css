@@ -1,0 +1,137 @@
+.header {
+  background-color: rgb(28, 164, 255);
+  height: 15vh;
+  text-align: center;
+  align-content: center;
+  padding-top: 5ch;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: black;
+}
+
+label {
+  color: black;
+  margin: 5px;
+  margin-right: 3px;
+}
+
+.title {
+  font-weight: 600;
+  margin: 0;
+  font-size: x-large;
+}
+
+.subtitle {
+  font-size: large;
+}
+
+.table-wrapper {
+  max-width: fit-content;
+  height: 50vh;
+  margin: 10px;
+  border: solid 3px grey;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.filter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-wrapper {
+  display: grid;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.input-dialog {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  width: 100%;
+}
+
+.input {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid gray 1px;
+}
+
+.filter-button {
+  background-color: rgb(255, 251, 251);
+  color: black;
+  font-weight: 1000;
+  width: 8vh;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 4px;
+  border: solid gray 1px;  
+}
+
+.filter-button:hover {
+  border: solid rgb(16, 15, 44) 2px;  
+}
+
+.filter-button:focus {
+  background-color: rgb(214, 214, 214);
+  color: rgb(29, 29, 29);
+  font-weight: 1000;
+  width: 8vh;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 4px;
+  border: solid rgb(16, 15, 44) 2px;  
+}
+
+.rota-button {
+  background-color: rgb(255, 251, 251);
+  color: black;
+  font-weight:bolder;
+  width: 10vh;
+  height: 6vh;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: solid gray 1px;  
+}
+
+.rota-button:hover {
+  border: solid rgb(16, 15, 44) 2px;  
+}
+
+.rota-button:focus {
+  box-shadow: 0 0 10px rgb(30, 28, 80);
+  border: solid rgb(16, 15, 44) 2px;  
+}
+
+
+.dialog-main {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(30, 28, 80);
+  position: absolute;
+  margin-top: 30px;
+  width: 50vh;
+}
+
+.input-button {
+  display: flex;
+}
+
+.path-wrapper {
+  height: 35vh;
+  overflow-y: auto;
+  border: 2px grey solid;
+  margin: 10px;
+  border-radius: 10px;
+}
